@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CMSN Dashboard – Framework View</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+<nav>
+  <span class="brand">CMSN Democracy Schools</span>
+  <a href="/">Overview</a>
+  <a href="/framework.html" class="active">By Framework</a>
+  <a href="/admin.html">Admin</a>
+</nav>
+
+<div class="container">
+  <div class="page-header">
+    <h1>Framework-Specific View</h1>
+    <p>Select a framework to see which Democracy Schools indicators align to it and how they map.</p>
+  </div>
+
+  <!-- Framework Tiles -->
+  <div class="framework-list" id="framework-tiles">
+    <div class="empty-state">Loading frameworks…</div>
+  </div>
+
+  <!-- Grade Band Filter -->
+  <div class="filter-bar" id="fw-filter-bar" style="display:none;">
+    <label for="fw-grade-filter">Grade Band</label>
+    <select id="fw-grade-filter">
+      <option value="">All Grades</option>
+      <option value="K-2">K–2</option>
+      <option value="3-5">3–5</option>
+      <option value="6-8">6–8</option>
+      <option value="9-12">9–12</option>
+    </select>
+    <label for="fw-confidence-filter">Confidence</label>
+    <select id="fw-confidence-filter">
+      <option value="">All</option>
+      <option value="high">High</option>
+      <option value="medium">Medium</option>
+      <option value="low">Low / Flagged</option>
+    </select>
+  </div>
+
+  <!-- Results Area -->
+  <div id="fw-results">
+    <div class="empty-state" id="fw-placeholder">
+      ← Select a framework above to view aligned indicators.
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="/js/framework.js" type="module"></script>
+</body>
+</html>

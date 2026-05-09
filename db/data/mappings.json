@@ -1,0 +1,394 @@
+[
+  {
+    "dsIndicatorId": "DS-1.1",
+    "frameworkId": "WIDA",
+    "frameworkCode": "ELD-2.1",
+    "confidence": "medium",
+    "needsReview": false,
+    "rationale": "Civic discourse requires academic language; WIDA ELD standard 2 addresses language for social studies contexts."
+  },
+  {
+    "dsIndicatorId": "DS-1.1",
+    "frameworkId": "SEL",
+    "frameworkCode": "SEL-1B.3a",
+    "confidence": "medium",
+    "needsReview": false,
+    "rationale": "Understanding rights and responsibilities maps to self-management and social awareness goals."
+  },
+  {
+    "dsIndicatorId": "DS-1.1",
+    "frameworkId": "DANIELSON",
+    "frameworkCode": "1a",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Demonstrating content knowledge of constitutional law directly reflects Danielson 1a: Knowledge of Content."
+  },
+  {
+    "dsIndicatorId": "DS-1.1",
+    "frameworkId": "ICLP",
+    "frameworkCode": "ICLP-C3",
+    "confidence": "medium",
+    "needsReview": false,
+    "rationale": "Comprehension of complex informational texts (founding documents) aligns with ICLP comprehension component."
+  },
+  {
+    "dsIndicatorId": "DS-1.1",
+    "frameworkId": "EJC",
+    "frameworkCode": "EJC-2.1",
+    "confidence": "low",
+    "needsReview": true,
+    "rationale": "REVIEW NEEDED – equity lens of constitutional history varies widely; alignment depends on instructional framing."
+  },
+  {
+    "dsIndicatorId": "DS-1.2",
+    "frameworkId": "WIDA",
+    "frameworkCode": "ELD-2.3",
+    "confidence": "medium",
+    "needsReview": false,
+    "rationale": "Language of argumentation and process description aligns with WIDA social studies language functions."
+  },
+  {
+    "dsIndicatorId": "DS-1.2",
+    "frameworkId": "SEL",
+    "frameworkCode": "SEL-2A.4b",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Understanding civic processes supports responsible decision-making (SEL goal 2A)."
+  },
+  {
+    "dsIndicatorId": "DS-1.2",
+    "frameworkId": "DANIELSON",
+    "frameworkCode": "1b",
+    "confidence": "medium",
+    "needsReview": false,
+    "rationale": "Teachers must understand democratic processes to design authentic learning (Danielson 1b)."
+  },
+  {
+    "dsIndicatorId": "DS-1.4",
+    "frameworkId": "EJC",
+    "frameworkCode": "EJC-3.2",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Civil rights history is foundational to equity journey continuum work."
+  },
+  {
+    "dsIndicatorId": "DS-1.4",
+    "frameworkId": "SEL",
+    "frameworkCode": "SEL-2B.4a",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Recognizing others' rights and perspectives maps directly to social awareness standards."
+  },
+  {
+    "dsIndicatorId": "DS-1.4",
+    "frameworkId": "ICLP",
+    "frameworkCode": "ICLP-V2",
+    "confidence": "medium",
+    "needsReview": false,
+    "rationale": "Civil rights vocabulary is essential academic language targeted by ICLP vocabulary component."
+  },
+  {
+    "dsIndicatorId": "DS-2.1",
+    "frameworkId": "WIDA",
+    "frameworkCode": "ELD-3.1",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Evaluating evidence requires language functions WIDA categorizes under argumentation."
+  },
+  {
+    "dsIndicatorId": "DS-2.1",
+    "frameworkId": "ICLP",
+    "frameworkCode": "ICLP-C2",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Comprehension strategies (inference, synthesis) are explicitly targeted in ICLP Section 2."
+  },
+  {
+    "dsIndicatorId": "DS-2.1",
+    "frameworkId": "DANIELSON",
+    "frameworkCode": "3b",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Questioning and discussion techniques (Danielson 3b) are the instructional vehicle for civic analysis."
+  },
+  {
+    "dsIndicatorId": "DS-2.2",
+    "frameworkId": "SEL",
+    "frameworkCode": "SEL-2B.3a",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Cross-perspective dialogue is the operational definition of SEL social awareness in action."
+  },
+  {
+    "dsIndicatorId": "DS-2.2",
+    "frameworkId": "DANIELSON",
+    "frameworkCode": "3b",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Structured discussion is core to Danielson 3b: Questioning and Discussion Techniques."
+  },
+  {
+    "dsIndicatorId": "DS-2.2",
+    "frameworkId": "WIDA",
+    "frameworkCode": "ELD-1.1",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Oral deliberation requires the academic oral language functions described in WIDA standard 1."
+  },
+  {
+    "dsIndicatorId": "DS-2.2",
+    "frameworkId": "ICLP",
+    "frameworkCode": "ICLP-O1",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Oracy (oral language) is the first ICLP component; deliberation is its civic application."
+  },
+  {
+    "dsIndicatorId": "DS-2.3",
+    "frameworkId": "ICLP",
+    "frameworkCode": "ICLP-C4",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Evaluating digital and print sources maps directly to ICLP comprehension strategies."
+  },
+  {
+    "dsIndicatorId": "DS-2.3",
+    "frameworkId": "WIDA",
+    "frameworkCode": "ELD-3.2",
+    "confidence": "medium",
+    "needsReview": false,
+    "rationale": "Interpreting media requires the language of analysis and evaluation (WIDA ELD standard 3)."
+  },
+  {
+    "dsIndicatorId": "DS-2.3",
+    "frameworkId": "SEL",
+    "frameworkCode": "SEL-1A.4a",
+    "confidence": "medium",
+    "needsReview": false,
+    "rationale": "Media literacy supports self-awareness and critical consumption (SEL 1A)."
+  },
+  {
+    "dsIndicatorId": "DS-2.3",
+    "frameworkId": "EJC",
+    "frameworkCode": "EJC-2.3",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Recognizing bias in media is central to equity journey continuum work on systemic awareness."
+  },
+  {
+    "dsIndicatorId": "DS-2.3",
+    "frameworkId": "DANIELSON",
+    "frameworkCode": "1c",
+    "confidence": "medium",
+    "needsReview": false,
+    "rationale": "Selecting appropriate digital resources reflects Danielson 1c: Setting Instructional Outcomes."
+  },
+  {
+    "dsIndicatorId": "DS-2.4",
+    "frameworkId": "DANIELSON",
+    "frameworkCode": "3c",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Explicit, sequenced civic instruction directly corresponds to Danielson 3c: Engaging Students in Learning."
+  },
+  {
+    "dsIndicatorId": "DS-2.4",
+    "frameworkId": "ICLP",
+    "frameworkCode": "ICLP-WR1",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Direct instruction in word recognition and fluency is explicitly named in ICLP components 3-4."
+  },
+  {
+    "dsIndicatorId": "DS-2.4",
+    "frameworkId": "WIDA",
+    "frameworkCode": "ELD-4.1",
+    "confidence": "medium",
+    "needsReview": false,
+    "rationale": "Structured language instruction for ELL students aligns with WIDA ELD standard 4."
+  },
+  {
+    "dsIndicatorId": "DS-2.4",
+    "frameworkId": "SEL",
+    "frameworkCode": "SEL-3A.4a",
+    "confidence": "low",
+    "needsReview": true,
+    "rationale": "REVIEW NEEDED – direct instruction alignment with SEL responsible decision-making is indirect."
+  },
+  {
+    "dsIndicatorId": "DS-2.5",
+    "frameworkId": "ICLP",
+    "frameworkCode": "ICLP-W2",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Writing for inquiry (ICLP writing component) directly mirrors the research and inquiry process."
+  },
+  {
+    "dsIndicatorId": "DS-2.5",
+    "frameworkId": "DANIELSON",
+    "frameworkCode": "1e",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Designing inquiry-based learning reflects Danielson 1e: Designing Coherent Instruction."
+  },
+  {
+    "dsIndicatorId": "DS-2.5",
+    "frameworkId": "WIDA",
+    "frameworkCode": "ELD-3.3",
+    "confidence": "medium",
+    "needsReview": false,
+    "rationale": "Academic research requires language functions in WIDA standard 3 (interpretive mode)."
+  },
+  {
+    "dsIndicatorId": "DS-3.1",
+    "frameworkId": "SEL",
+    "frameworkCode": "SEL-1B.4a",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Student agency is the operational outcome of SEL self-management standards."
+  },
+  {
+    "dsIndicatorId": "DS-3.1",
+    "frameworkId": "EJC",
+    "frameworkCode": "EJC-4.1",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Student voice is a primary indicator in EJC equity domain 4 (shared power)."
+  },
+  {
+    "dsIndicatorId": "DS-3.1",
+    "frameworkId": "DANIELSON",
+    "frameworkCode": "3d",
+    "confidence": "medium",
+    "needsReview": false,
+    "rationale": "Student engagement and agency map to Danielson 3d: Using Assessment in Instruction."
+  },
+  {
+    "dsIndicatorId": "DS-3.3",
+    "frameworkId": "EJC",
+    "frameworkCode": "EJC-4.3",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Community partnerships are explicit in EJC domain 4 (belonging and community)."
+  },
+  {
+    "dsIndicatorId": "DS-3.3",
+    "frameworkId": "SEL",
+    "frameworkCode": "SEL-2C.4b",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Relationship skills with community organizations directly maps to SEL standard 2C."
+  },
+  {
+    "dsIndicatorId": "DS-3.5",
+    "frameworkId": "DANIELSON",
+    "frameworkCode": "4c",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Service learning involves communicating with families and community (Danielson 4c)."
+  },
+  {
+    "dsIndicatorId": "DS-3.5",
+    "frameworkId": "SEL",
+    "frameworkCode": "SEL-3B.4a",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Service learning is the civic application of responsible decision-making and prosocial behavior (SEL 3B)."
+  },
+  {
+    "dsIndicatorId": "DS-3.5",
+    "frameworkId": "EJC",
+    "frameworkCode": "EJC-4.4",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Reciprocal service with community reflects EJC's community co-creation principle."
+  },
+  {
+    "dsIndicatorId": "DS-3.5",
+    "frameworkId": "ICLP",
+    "frameworkCode": "ICLP-W3",
+    "confidence": "medium",
+    "needsReview": false,
+    "rationale": "Service learning projects require persuasive and expository writing targeted by ICLP component 7."
+  },
+  {
+    "dsIndicatorId": "DS-3.5",
+    "frameworkId": "WIDA",
+    "frameworkCode": "ELD-2.2",
+    "confidence": "medium",
+    "needsReview": false,
+    "rationale": "Community engagement contexts provide authentic oral language use aligned with WIDA standard 2."
+  },
+  {
+    "dsIndicatorId": "DS-4.1",
+    "frameworkId": "EJC",
+    "frameworkCode": "EJC-1.1",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Belonging and inclusive culture is the foundational domain (1) of the Equity Journey Continuum."
+  },
+  {
+    "dsIndicatorId": "DS-4.1",
+    "frameworkId": "SEL",
+    "frameworkCode": "SEL-2B.3b",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Inclusive culture operationalizes SEL social awareness at the school-systems level."
+  },
+  {
+    "dsIndicatorId": "DS-4.1",
+    "frameworkId": "DANIELSON",
+    "frameworkCode": "2a",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Creating an environment of respect and rapport is Danielson domain 2a."
+  },
+  {
+    "dsIndicatorId": "DS-4.2",
+    "frameworkId": "EJC",
+    "frameworkCode": "EJC-3.1",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Using disaggregated data for equity action is central to EJC domain 3 (equitable systems)."
+  },
+  {
+    "dsIndicatorId": "DS-4.2",
+    "frameworkId": "ICLP",
+    "frameworkCode": "ICLP-EQ1",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "ICLP Section 5 explicitly requires equity-centered data analysis for literacy improvement."
+  },
+  {
+    "dsIndicatorId": "DS-4.2",
+    "frameworkId": "DANIELSON",
+    "frameworkCode": "4e",
+    "confidence": "medium",
+    "needsReview": false,
+    "rationale": "Growing and developing professionally includes equity-focused professional learning (Danielson 4e)."
+  },
+  {
+    "dsIndicatorId": "DS-4.4",
+    "frameworkId": "WIDA",
+    "frameworkCode": "ELD-1.3",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "WIDA emphasizes drawing on students' home language assets; culturally responsive teaching is essential."
+  },
+  {
+    "dsIndicatorId": "DS-4.4",
+    "frameworkId": "EJC",
+    "frameworkCode": "EJC-2.2",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "Culturally responsive practice is explicitly named in EJC domain 2 (identity and culture)."
+  },
+  {
+    "dsIndicatorId": "DS-4.4",
+    "frameworkId": "ICLP",
+    "frameworkCode": "ICLP-EQ2",
+    "confidence": "high",
+    "needsReview": false,
+    "rationale": "ICLP requires contextualization of literacy instruction to students' cultural and linguistic backgrounds."
+  }
+]

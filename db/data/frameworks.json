@@ -1,0 +1,32 @@
+[
+  {
+    "id": "WIDA",
+    "name": "WIDA English Language Development Standards",
+    "shortName": "WIDA",
+    "color": "#1565C0"
+  },
+  {
+    "id": "SEL",
+    "name": "Illinois Social-Emotional Learning Standards",
+    "shortName": "IL SEL",
+    "color": "#2E7D32"
+  },
+  {
+    "id": "DANIELSON",
+    "name": "Danielson Framework for Teaching (FFT)",
+    "shortName": "Danielson",
+    "color": "#6A1B9A"
+  },
+  {
+    "id": "ICLP",
+    "name": "Illinois Comprehensive Literacy Plan",
+    "shortName": "ICLP",
+    "color": "#E65100"
+  },
+  {
+    "id": "EJC",
+    "name": "Equity Journey Continuum",
+    "shortName": "EJC",
+    "color": "#00695C"
+  }
+]

@@ -1,0 +1,13 @@
+dsIndicatorId,frameworkId,frameworkCode,confidence,rationale,needsReview
+DS-1.1,WIDA,ELD-2.1,medium,"Civic discourse requires academic language; WIDA ELD standard 2 addresses language for social studies contexts.",false
+DS-1.1,SEL,SEL-1B.3a,medium,"Understanding rights and responsibilities maps to self-management and social awareness goals.",false
+DS-1.1,DANIELSON,1a,high,"Demonstrating content knowledge of constitutional law directly reflects Danielson 1a: Knowledge of Content.",false
+DS-2.3,ICLP,ICLP-C4,high,"Evaluating digital and print sources maps directly to ICLP comprehension strategies.",false
+DS-2.3,EJC,EJC-2.3,high,"Recognizing bias in media is central to equity journey continuum work on systemic awareness.",false
+DS-2.4,DANIELSON,3c,high,"Explicit, sequenced civic instruction directly corresponds to Danielson 3c: Engaging Students in Learning.",false
+DS-2.4,SEL,SEL-3A.4a,low,"REVIEW NEEDED – direct instruction alignment with SEL responsible decision-making is indirect.",true
+DS-3.5,DANIELSON,4c,high,"Service learning involves communicating with families and community (Danielson 4c).",false
+DS-3.5,SEL,SEL-3B.4a,high,"Service learning is the civic application of responsible decision-making and prosocial behavior (SEL 3B).",false
+DS-4.1,EJC,EJC-1.1,high,"Belonging and inclusive culture is the foundational domain (1) of the Equity Journey Continuum.",false
+DS-4.2,EJC,EJC-3.1,high,"Using disaggregated data for equity action is central to EJC domain 3 (equitable systems).",false
+INVALID-FORMAT,WIDA,ELD-1.0,low,"REVIEW NEEDED – this row has a bad DS ID and should be rejected by the validator.",true

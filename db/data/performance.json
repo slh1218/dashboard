@@ -1,0 +1,112 @@
+[
+  {
+    "id": "p-001",
+    "schoolId": "school-demo",
+    "dsIndicatorId": "DS-1.1",
+    "score": 3,
+    "level": "medium",
+    "gradeBand": "6-8",
+    "schoolYear": "2024-25",
+    "evidenceType": "Student Survey"
+  },
+  {
+    "id": "p-002",
+    "schoolId": "school-demo",
+    "dsIndicatorId": "DS-1.2",
+    "score": 3,
+    "level": "medium",
+    "gradeBand": "6-8",
+    "schoolYear": "2024-25",
+    "evidenceType": "School Audit"
+  },
+  {
+    "id": "p-003",
+    "schoolId": "school-demo",
+    "dsIndicatorId": "DS-2.1",
+    "score": 4,
+    "level": "high",
+    "gradeBand": "9-12",
+    "schoolYear": "2024-25",
+    "evidenceType": "Student Outcome Data"
+  },
+  {
+    "id": "p-004",
+    "schoolId": "school-demo",
+    "dsIndicatorId": "DS-2.2",
+    "score": 4,
+    "level": "high",
+    "gradeBand": "6-8",
+    "schoolYear": "2024-25",
+    "evidenceType": "Student Survey"
+  },
+  {
+    "id": "p-005",
+    "schoolId": "school-demo",
+    "dsIndicatorId": "DS-2.3",
+    "score": 1,
+    "level": "low",
+    "gradeBand": "6-8",
+    "schoolYear": "2024-25",
+    "evidenceType": "Staff Survey"
+  },
+  {
+    "id": "p-006",
+    "schoolId": "school-demo",
+    "dsIndicatorId": "DS-2.4",
+    "score": 2,
+    "level": "low",
+    "gradeBand": "3-5",
+    "schoolYear": "2024-25",
+    "evidenceType": "School Audit"
+  },
+  {
+    "id": "p-007",
+    "schoolId": "school-demo",
+    "dsIndicatorId": "DS-3.1",
+    "score": 3,
+    "level": "medium",
+    "gradeBand": "9-12",
+    "schoolYear": "2024-25",
+    "evidenceType": "Student Survey"
+  },
+  {
+    "id": "p-008",
+    "schoolId": "school-demo",
+    "dsIndicatorId": "DS-3.5",
+    "score": 4,
+    "level": "high",
+    "gradeBand": "9-12",
+    "schoolYear": "2024-25",
+    "evidenceType": "Administrative Data"
+  },
+  {
+    "id": "p-009",
+    "schoolId": "school-demo",
+    "dsIndicatorId": "DS-4.1",
+    "score": 3,
+    "level": "medium",
+    "gradeBand": "K-2",
+    "schoolYear": "2024-25",
+    "evidenceType": "Student Survey"
+  },
+  {
+    "id": "p-010",
+    "schoolId": "school-demo",
+    "dsIndicatorId": "DS-4.2",
+    "score": 2,
+    "level": "low",
+    "gradeBand": "K-2",
+    "schoolYear": "2024-25",
+    "evidenceType": "Administrative Data"
+  },
+  {
+    "id": "p-011",
+    "schoolId": "school-demo",
+    "dsIndicatorId": "DS-4.4",
+    "score": 4,
+    "level": "high",
+    "gradeBand": "3-5",
+    "schoolYear": "2024-25",
+    "evidenceType": "Staff Survey"
+  }
+]

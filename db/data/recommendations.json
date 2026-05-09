@@ -1,0 +1,146 @@
+[
+  {
+    "id": "rec-001",
+    "dsIndicatorId": "DS-2.3",
+    "title": "Digital Literacy/Source Evaluation",
+    "description": "SIFT (Stop, Investigate, Find, Trace) method resources for teaching media verification across grade bands.",
+    "resourceUrl": "https://cor.stanford.edu/curriculum/collections/sift-the-four-moves",
+    "tags": [
+      "media",
+      "digital",
+      "source evaluation"
+    ]
+  },
+  {
+    "id": "rec-002",
+    "dsIndicatorId": "DS-2.3",
+    "title": "News Literacy Project – Checkology",
+    "description": "Free platform with lessons for evaluating news and information in civic contexts.",
+    "resourceUrl": "https://get.checkology.org/",
+    "tags": [
+      "media",
+      "news literacy",
+      "digital"
+    ]
+  },
+  {
+    "id": "rec-003",
+    "dsIndicatorId": "DS-2.2",
+    "title": "Structured Academic Controversy Protocol",
+    "description": "Step-by-step protocol for facilitating productive disagreement using primary sources.",
+    "resourceUrl": "https://www.facing.org/classroom-resources/structured-academic-controversy/",
+    "tags": [
+      "deliberation",
+      "discussion",
+      "protocol"
+    ]
+  },
+  {
+    "id": "rec-004",
+    "dsIndicatorId": "DS-3.5",
+    "title": "National Youth Leadership Council – Service Learning Standards",
+    "description": "K-12 service learning quality indicators, rubrics, and implementation guides.",
+    "resourceUrl": "https://nylc.org/service-learning/",
+    "tags": [
+      "service learning",
+      "community",
+      "action"
+    ]
+  },
+  {
+    "id": "rec-005",
+    "dsIndicatorId": "DS-3.4",
+    "title": "Action Civics Collaborative Framework",
+    "description": "Project-based civic action framework with portfolio rubrics aligned to grade bands.",
+    "resourceUrl": "https://www.actioncivicscollaborative.org/",
+    "tags": [
+      "action civics",
+      "project-based",
+      "democracy"
+    ]
+  },
+  {
+    "id": "rec-006",
+    "dsIndicatorId": "DS-2.1",
+    "title": "Civic Online Reasoning (Stanford)",
+    "description": "Free lateral reading and fact-checking curriculum for grades 6-12.",
+    "resourceUrl": "https://cor.stanford.edu/",
+    "tags": [
+      "critical thinking",
+      "evidence",
+      "online"
+    ]
+  },
+  {
+    "id": "rec-007",
+    "dsIndicatorId": "DS-4.2",
+    "title": "Equity Audit Toolkit (ISBE)",
+    "description": "Illinois State Board of Education equity audit tools for disaggregated data analysis.",
+    "resourceUrl": "https://www.isbe.net/Pages/Equity.aspx",
+    "tags": [
+      "equity",
+      "data",
+      "audit"
+    ]
+  },
+  {
+    "id": "rec-008",
+    "dsIndicatorId": "DS-4.4",
+    "title": "Culturally Responsive Teaching & the Brain",
+    "description": "Professional learning resources based on Zaretta Hammond's framework for culturally responsive instruction.",
+    "resourceUrl": "https://crtandthebrain.com/",
+    "tags": [
+      "culturally responsive",
+      "professional learning",
+      "equity"
+    ]
+  },
+  {
+    "id": "rec-009",
+    "dsIndicatorId": "DS-2.4",
+    "title": "iCivics – Direct Instruction Games & Lessons",
+    "description": "Standards-aligned civic content games and teacher-directed lesson modules.",
+    "resourceUrl": "https://www.icivics.org/",
+    "tags": [
+      "direct instruction",
+      "civic content",
+      "games"
+    ]
+  },
+  {
+    "id": "rec-010",
+    "dsIndicatorId": "DS-1.1",
+    "title": "Annenberg Classroom – Constitutional Resources",
+    "description": "Free primary source documents, videos, and discussion guides for teaching constitutional foundations.",
+    "resourceUrl": "https://www.annenbergclassroom.org/",
+    "tags": [
+      "constitution",
+      "primary sources",
+      "knowledge"
+    ]
+  },
+  {
+    "id": "rec-011",
+    "dsIndicatorId": "DS-3.1",
+    "title": "Student Voice Toolkit (Tufts CIRCLE)",
+    "description": "Research-based tools for creating authentic student voice and agency structures.",
+    "resourceUrl": "https://circle.tufts.edu/",
+    "tags": [
+      "student voice",
+      "agency",
+      "participation"
+    ]
+  },
+  {
+    "id": "rec-012",
+    "dsIndicatorId": "DS-4.1",
+    "title": "Restorative Practices Implementation Guide",
+    "description": "School-level guide for building inclusive culture through restorative community-building circles.",
+    "resourceUrl": "https://www.iirp.edu/restorative-practices/what-is-restorative-practices",
+    "tags": [
+      "inclusive culture",
+      "restorative",
+      "community"
+    ]
+  }
+]

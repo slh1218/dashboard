@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CMSN Dashboard – Admin</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+<nav>
+  <span class="brand">CMSN Democracy Schools</span>
+  <a href="/">Overview</a>
+  <a href="/framework.html">By Framework</a>
+  <a href="/admin.html" class="active">Admin</a>
+</nav>
+
+<div class="container">
+  <div class="page-header">
+    <h1>Admin Dashboard</h1>
+    <p>Manage frameworks, import crosswalk data, update recommendations, and resolve review flags.</p>
+  </div>
+
+  <!-- ── Crosswalk Import ─────────────────────────────────────────────────── -->
+  <div class="card" style="margin-bottom:1.5rem;">
+    <div class="section-title" style="margin-top:0;">Import Crosswalk CSV</div>
+    <p style="font-size:.85rem;color:var(--muted);margin-bottom:1rem;">
+      Upload a CSV with columns: <code>dsIndicatorId, frameworkId, frameworkCode, confidence, rationale, needsReview</code>.<br>
+      Rows with <strong>low confidence</strong> or rationale containing <em>"REVIEW NEEDED"</em> are automatically flagged.
+    </p>
+    <form id="import-form" enctype="multipart/form-data">
+      <div style="display:flex;gap:.75rem;align-items:center;flex-wrap:wrap;">
+        <input type="file" id="csv-file" accept=".csv" style="font-size:.85rem;" />
+        <button type="submit" class="btn btn-primary">Import</button>
+        <a href="/data/sample-crosswalk.csv" download class="btn btn-sm" style="background:var(--border);color:var(--text);">Download Sample CSV</a>
+      </div>
+    </form>
+    <div id="import-result" style="margin-top:1rem;font-size:.85rem;"></div>
+  </div>
+
+  <!-- ── Review Queue ─────────────────────────────────────────────────────── -->
+  <div class="card" style="margin-bottom:1.5rem;">
+    <div class="section-title" style="margin-top:0;">Review Queue <span id="queue-count" style="background:var(--low-bg);color:var(--low);padding:1px 8px;border-radius:999px;font-size:.75rem;margin-left:.5rem;"></span></div>
+    <div id="review-queue">
+      <div class="empty-state">Loading…</div>
+    </div>
+  </div>
+
+  <!-- ── Add Framework ────────────────────────────────────────────────────── -->
+  <div class="card" style="margin-bottom:1.5rem;">
+    <div class="section-title" style="margin-top:0;">Add New Framework</div>
+    <p style="font-size:.85rem;color:var(--muted);margin-bottom:1rem;">New frameworks appear automatically in the School Overview filter and Framework view.</p>
+    <form id="add-fw-form" style="display:grid;grid-template-columns:1fr 1fr;gap:.75rem;">
+      <div class="form-group">
+        <label>Framework ID (e.g., WORKFORCE)</label>
+        <input type="text" id="fw-id" placeholder="WORKFORCE" required />
+      </div>
+      <div class="form-group">
+        <label>Short Name</label>
+        <input type="text" id="fw-short" placeholder="Workforce" />
+      </div>
+      <div class="form-group" style="grid-column:1/-1;">
+        <label>Full Name</label>
+        <input type="text" id="fw-name" placeholder="Illinois Workforce Readiness Framework" required />
+      </div>
+      <div class="form-group">
+        <label>Color (hex)</label>
+        <input type="color" id="fw-color" value="#607D8B" />
+      </div>
+      <div style="display:flex;align-items:flex-end;">
+        <button type="submit" class="btn btn-accent">Add Framework</button>
+      </div>
+    </form>
+    <div class="section-title" style="margin-top:1.5rem;">Existing Frameworks</div>
+    <div id="fw-list" style="display:flex;flex-wrap:wrap;gap:.5rem;"></div>
+  </div>
+
+  <!-- ── Add Recommendation ───────────────────────────────────────────────── -->
+  <div class="card" style="margin-bottom:1.5rem;">
+    <div class="section-title" style="margin-top:0;">Add Recommendation</div>
+    <form id="add-rec-form" style="display:grid;grid-template-columns:1fr 1fr;gap:.75rem;">
+      <div class="form-group">
+        <label>DS Indicator ID</label>
+        <input type="text" id="rec-ds-id" placeholder="DS-2.3" required pattern="DS-\d+\.\d+" />
+      </div>
+      <div class="form-group">
+        <label>Title</label>
+        <input type="text" id="rec-title" placeholder="Resource name" required />
+      </div>
+      <div class="form-group" style="grid-column:1/-1;">
+        <label>Description</label>
+        <textarea id="rec-desc" placeholder="Brief description of the resource…"></textarea>
+      </div>
+      <div class="form-group">
+        <label>Resource URL</label>
+        <input type="url" id="rec-url" placeholder="https://…" />
+      </div>
+      <div class="form-group">
+        <label>Tags (comma-separated)</label>
+        <input type="text" id="rec-tags" placeholder="media, digital, source evaluation" />
+      </div>
+      <div style="grid-column:1/-1;">
+        <button type="submit" class="btn btn-accent">Add Recommendation</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="/js/admin.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CMSN Dashboard – School Overview</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+<nav>
+  <span class="brand">CMSN Democracy Schools</span>
+  <a href="/" class="active">Overview</a>
+  <a href="/framework.html">By Framework</a>
+  <a href="/admin.html">Admin</a>
+</nav>
+
+<div class="container">
+  <div class="page-header">
+    <h1>School Overview</h1>
+    <p>Multi-framework view of Democracy Schools indicator performance — filter to explore aligned standards.</p>
+  </div>
+
+  <!-- Filter Bar -->
+  <div class="filter-bar">
+    <label for="fw-filter">Framework</label>
+    <select id="fw-filter">
+      <option value="">All Frameworks</option>
+    </select>
+
+    <label for="grade-filter">Grade Band</label>
+    <select id="grade-filter">
+      <option value="">All Grades</option>
+      <option value="K-2">K–2</option>
+      <option value="3-5">3–5</option>
+      <option value="6-8">6–8</option>
+      <option value="9-12">9–12</option>
+    </select>
+
+    <label for="level-filter">Performance</label>
+    <select id="level-filter">
+      <option value="">All Levels</option>
+      <option value="high">High</option>
+      <option value="medium">Medium</option>
+      <option value="low">Low</option>
+    </select>
+
+    <span class="spacer"></span>
+    <button class="btn btn-primary btn-sm" id="clear-filters">Clear Filters</button>
+  </div>
+
+  <!-- Strengths / Growth Summary -->
+  <div class="summary-grid" id="summary-grid">
+    <div class="summary-panel strengths card">
+      <h3>✓ Strengths</h3>
+      <ul id="strengths-list"><li>Loading…</li></ul>
+    </div>
+    <div class="summary-panel growth card">
+      <h3>↑ Areas for Growth</h3>
+      <ul id="growth-list"><li>Loading…</li></ul>
+    </div>
+  </div>
+
+  <!-- Indicator Cards -->
+  <div class="section-title" id="card-count">Indicators</div>
+  <div class="card-grid" id="card-grid">
+    <div class="empty-state">Loading indicators…</div>
+  </div>
+</div>
+
+<!-- Performance Entry Modal -->
+<div id="modal-overlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:50;align-items:center;justify-content:center;">
+  <div class="card" style="width:min(480px,92vw);padding:1.5rem;">
+    <h3 style="color:var(--primary);margin-bottom:1rem;">Record Performance</h3>
+    <div class="form-group">
+      <label>DS Indicator</label>
+      <input type="text" id="modal-ds-id" readonly style="background:#f5f7fa;" />
+    </div>
+    <div class="form-group">
+      <label>Score (1–4)</label>
+      <input type="number" id="modal-score" min="1" max="4" step="0.5" placeholder="e.g., 3" />
+    </div>
+    <div class="form-group">
+      <label>Grade Band</label>
+      <select id="modal-grade">
+        <option value="K-2">K–2</option>
+        <option value="3-5">3–5</option>
+        <option value="6-8">6–8</option>
+        <option value="9-12">9–12</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>Evidence Type</label>
+      <select id="modal-evidence">
+        <option>Student Survey</option>
+        <option>Staff Survey</option>
+        <option>School Audit</option>
+        <option>Administrative Data</option>
+        <option>Student Outcome Data</option>
+      </select>
+    </div>
+    <div style="display:flex;gap:.75rem;justify-content:flex-end;">
+      <button class="btn btn-sm" id="modal-cancel" style="background:var(--border);">Cancel</button>
+      <button class="btn btn-primary btn-sm" id="modal-save">Save</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="/js/overview.js" type="module"></script>
+</body>
+</html>
